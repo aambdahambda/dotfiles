@@ -3,21 +3,21 @@ syntax off
 
 set enc=utf-8 shm+=asWIF tgc bg=light ls=2 stl=%F noru nosmd nosc 
 
-hi! Normal      guibg=#ffffea   guifg=#333333   ctermbg=white     ctermfg=black
+hi! Normal      guibg=#ffffea   guifg=#333333 ctermbg=white     ctermfg=black
 hi! link        VertSplit       Normal
 hi! link        CursorLine      Normal
 hi! link        LineNr          Normal
 hi! link        Wildmenu        Normal
 hi! link        EndOfBuffer     Normal
-hi! Visual      guibg=lightgray guifg=#333333   ctermbg=lightgray ctermfg=black
+hi! Visual      guibg=lightgray guifg=#333333 ctermbg=lightgray ctermfg=black
 hi! link        Search          Visual 
 hi! link        MatchParen      Visual 
-hi! link        StatusLineNC		Visual	
-hi! ColorColumn guibg=#333333   guifg=#ffffea   ctermbg=black     ctermfg=white cterm=none
-hi! link        StatusLine	    ColorColumn	
+hi! link        StatusLineNC    Visual	
+hi! ColorColumn guibg=#333333   guifg=#ffffea ctermbg=black     ctermfg=white cterm=none
+hi! link        StatusLine      ColorColumn	
 
 set ut=300 clipboard=unnamedplus mouse= hid nu rnu nobk noswf  
-set ic scs hls sb spr ts=2 sts=0 sw=2 ai si ci 
+set ic scs hls sb spr ts=2 sts=0 sw=2 et ai si ci 
 
 if has('persistent_undo')
 	let s:udir = expand('~/.vim/undo') 
