@@ -1,0 +1,12 @@
+[database]
+path=/home/amir/.mail
+
+[user]
+name=Amir Habirov
+primary_email=aambdahambda@ya.ru
+
+[new]
+
+[search]
+
+[maildir]

@@ -1,0 +1,27 @@
+Create             Both
+Expunge            Both
+Sync               All
+SyncState          *
+CopyArrivalDate    Yes
+
+IMAPAccount        yandex-imap
+Host               imap.yandex.com
+Port               993
+User               aambdahambda@ya.ru
+PassCmd            "pass show imap/aambdahambda@ya.ru"
+TLSType            IMAPS
+AuthMechs          Login
+SystemCertificates Yes
+
+IMAPStore          yandex-remote
+Account            yandex-imap
+
+MaildirStore       yandex-local
+Path               ~/.mail/aambdahambda@ya.ru/
+Inbox              ~/.mail/aambdahambda@ya.ru/INBOX
+SubFolders         Verbatim
+
+Channel            yandex
+Far                :yandex-remote:
+Near               :yandex-local:
+Patterns           *

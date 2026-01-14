@@ -1,0 +1,8 @@
+src/clipmenud
+src/clipctl
+src/clipdel
+src/clipmenu
+src/clipserve
+tests/test
+tests/test_store
+*.o

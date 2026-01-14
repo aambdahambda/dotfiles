@@ -1,0 +1,37 @@
+set guioptions              ""
+
+set font                    "Comic Code 20"
+
+set statusbar-home-tilde    "true"
+set window-title-home-tilde "true"
+
+set scroll-page-aware       "true"
+set scroll-full-overlap     0.01
+set scroll-step             100
+
+set default-fg              "#333333"
+set default-bg              "#ffffea"
+
+set statusbar-fg            "#333333"
+set statusbar-bg            "#ffffea"
+
+set inputbar-fg             "#333333"
+set inputbar-bg             "#ffffea"
+
+set completion-fg           "#333333"
+set completion-bg           "#ffffea"
+
+set completion-group-fg     "#333333"
+set completion-group-bg     "#ffffea"
+
+set completion-highlight-fg "#ffffea"
+set completion-highlight-bg "#333333"
+
+set notification-fg         "#333333"
+set notification-bg         "#ffffea"
+
+set notification-error-fg   "#333333"
+set notification-error-bg   "#ffffea"
+
+set notification-warning-fg "#333333"
+set notification-warning-bg "#ffffea"
